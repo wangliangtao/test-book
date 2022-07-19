@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_number_54</title>
+    <defs>
+        <linearGradient x1="-3.54931021%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9A54C" offset="0%"></stop>
+            <stop stop-color="#F9894C" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="27" cy="27" r="27"></circle>
+        <filter x="-13.0%" y="-9.3%" width="125.9%" height="125.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.976470588   0 0 0 0 0.537254902   0 0 0 0 0.298039216  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-24.1%" y="-23.2%" width="148.1%" height="146.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.6   0 0 0 0 0.211560694   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="核销管理系统-1.3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5-1-数据看板-停车缴费统计" transform="translate(-1256.000000, -314.000000)">
+            <g id="内容区" transform="translate(0.000000, 60.000000)">
+                <g id="右侧内容" transform="translate(240.000000, 14.000000)">
+                    <g id="缴费统计" transform="translate(0.000000, 46.000000)">
+                        <g id="5" transform="translate(567.000000, 176.000000)">
+                            <g id="icon_number_54" transform="translate(453.000000, 20.000000)">
+                                <g id="椭圆形">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                </g>
+                                <g id="编组-2" filter="url(#filter-4)" transform="translate(13.861904, 14.165653)" fill="#FFFFFF">
+                                    <path d="M14.135997,0.266738864 L25.7749749,6.96771662 C26.2536017,7.2432793 26.4182178,7.8546707 26.1426551,8.33329755 C26.054661,8.48613518 25.9278125,8.61298364 25.7749749,8.70097776 L14.135997,15.4019555 C13.5182628,15.7576073 12.7579299,15.7576073 12.1401956,15.4019555 L0.501217749,8.70097776 C0.0225909022,8.42541509 -0.142025135,7.81402368 0.133537538,7.33539683 C0.221531656,7.1825592 0.348380114,7.05571074 0.501217749,6.96771662 L12.1401956,0.266738864 C12.7579299,-0.0889129548 13.5182628,-0.0889129548 14.135997,0.266738864 Z" id="矩形"></path>
+                                    <path d="M24.674,12.3342975 L25.7749749,12.9677166 C26.2536017,13.2432793 26.4182178,13.8546707 26.1426551,14.3332975 C26.054661,14.4861352 25.9278125,14.6129836 25.7749749,14.7009778 L14.135997,21.4019555 C13.5182628,21.7576073 12.7579299,21.7576073 12.1401956,21.4019555 L0.501217749,14.7009778 C0.0225909022,14.4254151 -0.142025135,13.8140237 0.133537538,13.3353968 C0.221531656,13.1825592 0.348380114,13.0557107 0.501217749,12.9677166 L1.601,12.3342975 L12.1401956,18.4019555 C12.706452,18.7279697 13.3925309,18.7551375 13.9787577,18.4834591 L14.135997,18.4019555 L24.674,12.3342975 Z" id="路径"></path>
+                                    <path d="M24.675,18.3342975 L25.7749749,18.9677166 C26.2536017,19.2432793 26.4182178,19.8546707 26.1426551,20.3332975 C26.054661,20.4861352 25.9278125,20.6129836 25.7749749,20.7009778 L14.135997,27.4019555 C13.5182628,27.7576073 12.7579299,27.7576073 12.1401956,27.4019555 L0.501217749,20.7009778 C0.0225909022,20.4254151 -0.142025135,19.8140237 0.133537538,19.3353968 C0.221531656,19.1825592 0.348380114,19.0557107 0.501217749,18.9677166 L1.6,18.3342975 L13.1380963,24.9764828 L24.675,18.3342975 Z" id="路径"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

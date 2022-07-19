@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_merchants_54</title>
+    <defs>
+        <linearGradient x1="-3.54931021%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#34A7FF" offset="0%"></stop>
+            <stop stop-color="#1B8CFC" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="27" cy="27" r="27"></circle>
+        <filter x="-13.0%" y="-9.3%" width="125.9%" height="125.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.105882353   0 0 0 0 0.549019608   0 0 0 0 0.988235294  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-27.1%" y="-27.1%" width="154.2%" height="154.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.252232143   0 0 0 0 0.5  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="核销管理系统-1.3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5-2-数据看板-刷红包统计" transform="translate(-709.000000, -200.000000)">
+            <g id="内容区" transform="translate(0.000000, 60.000000)">
+                <g id="右侧内容" transform="translate(240.000000, 14.000000)">
+                    <g id="刷红包总计" transform="translate(0.000000, 46.000000)">
+                        <g id="1" transform="translate(20.000000, 62.000000)">
+                            <g id="icon_merchants_54" transform="translate(453.000000, 20.000000)">
+                                <g id="椭圆形">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                </g>
+                                <g id="icon" filter="url(#filter-4)" transform="translate(15.000000, 15.000000)" fill-rule="nonzero">
+                                    <g id="商家-点击">
+                                        <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                                        <path d="M7.83887718,10.1706311 L7.84031542,10.1720352 C8.44006524,11.5958191 10.0882985,12.5997693 12.0026079,12.5997692 C13.7860366,12.5997692 15.3379072,11.7292111 16.0268284,10.458477 L16.1346971,10.2422415 L16.7560206,11.1113956 L16.908475,11.3079732 C17.9289576,12.5427965 19.6543906,12.984557 21.1642537,12.3975751 L21.1642537,20.6917478 C21.1642537,21.4365426 20.8611949,22.1508326 20.3217469,22.677482 C19.7822989,23.2041314 19.0506504,23.5 18.2877557,23.5 L5.6915715,23.5 C4.92867683,23.5 4.19702833,23.2041314 3.65758032,22.677482 C3.11813232,22.1508326 2.81507359,21.4365426 2.81507359,20.6917478 L2.81507359,12.3161358 C4.31733379,12.9005133 6.03426061,12.4669761 7.05790799,11.2447876 L7.22186838,11.0313604 L7.83887718,10.1706311 Z M15,17.5 L9,17.5 C8.72385763,17.5 8.5,17.7238576 8.5,18 L8.5,18 L8.5,19 C8.5,19.2761424 8.72385763,19.5 9,19.5 L9,19.5 L15,19.5 C15.2761424,19.5 15.5,19.2761424 15.5,19 L15.5,19 L15.5,18 C15.5,17.7238576 15.2761424,17.5 15,17.5 L15,17.5 Z M6.52144113,0.524022689 L18.028871,0.525426808 C18.1295484,0.525426808 18.2287876,0.529639189 18.3265885,0.53946807 L18.4100069,0.545084594 L18.4531544,0.552105213 C19.3319245,0.658818787 20.1287144,1.09690613 20.681002,1.77088665 C20.7140817,1.81020217 20.738532,1.85373008 20.7572292,1.89866212 L20.8665361,2.0432871 L22.8268694,4.7771206 L22.9361764,4.93719098 C23.9753856,6.55985561 23.5400695,8.69198912 21.9430045,9.80164478 C20.3459396,10.9113004 18.1398908,10.614412 16.9099133,9.12429496 L16.7574589,8.92771729 L16.1361353,8.05715912 C15.510497,9.4444357 13.8852757,10.4146868 12.0040461,10.4146868 C10.091175,10.4146868 8.44150345,9.41073668 7.84175366,7.98695281 L7.22474487,8.84768212 C6.0672888,10.4368026 3.82789071,10.8441748 2.16186453,9.76867821 C0.495838346,8.69318162 0.00292076563,6.52197383 1.04746565,4.85996403 L1.15533432,4.69848955 L3.06101418,2.0432871 C3.84099274,0.954665337 5.1696643,0.371325923 6.52144113,0.524022689 Z" id="形状" fill="#FFFFFF"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

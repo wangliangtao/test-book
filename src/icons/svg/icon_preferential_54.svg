@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_preferential_54</title>
+    <defs>
+        <linearGradient x1="-3.54931021%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F9A54C" offset="0%"></stop>
+            <stop stop-color="#F9894C" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="27" cy="27" r="27"></circle>
+        <filter x="-13.0%" y="-9.3%" width="125.9%" height="125.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.976470588   0 0 0 0 0.537254902   0 0 0 0 0.298039216  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M25.3568103,16.5358084 C25.7061801,16.1864385 26.1725055,15.9787547 26.6659062,15.9527863 L37.115373,15.4028143 C38.2184158,15.3447595 39.1596715,16.1918895 39.2177264,17.2949323 C39.2214122,17.3649623 39.2214122,17.4351377 39.2177264,17.5051677 L38.6677544,27.9546345 C38.641786,28.4480352 38.4341022,28.9143606 38.0847323,29.2637304 L27.3137085,40.0347543 C26.5326599,40.8158029 25.26633,40.8158029 24.4852814,40.0347543 L14.5857864,30.1352593 C13.8047379,29.3542108 13.8047379,28.0878808 14.5857864,27.3068322 L25.3568103,16.5358084 Z M30.8492424,20.9428712 C30.0681938,21.7239198 30.0681938,22.9902497 30.8492424,23.7712983 C31.630291,24.5523469 32.8966209,24.5523469 33.6776695,23.7712983 C34.4587181,22.9902497 34.4587181,21.7239198 33.6776695,20.9428712 C32.8966209,20.1618226 31.630291,20.1618226 30.8492424,20.9428712 Z" id="path-4"></path>
+        <filter x="-9.9%" y="-9.9%" width="127.8%" height="127.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.6   0 0 0 0 0.211764706   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="核销管理系统-1.3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5-1-数据看板-停车缴费统计" transform="translate(-1802.000000, -200.000000)">
+            <g id="内容区" transform="translate(0.000000, 60.000000)">
+                <g id="右侧内容" transform="translate(240.000000, 14.000000)">
+                    <g id="缴费统计" transform="translate(0.000000, 46.000000)">
+                        <g id="3" transform="translate(1114.000000, 62.000000)">
+                            <g id="icon_preferential_54" transform="translate(452.000000, 20.000000)">
+                                <g id="椭圆形">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                </g>
+                                <g id="形状">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

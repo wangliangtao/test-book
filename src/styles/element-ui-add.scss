@@ -1,0 +1,133 @@
+.el {
+  &-input {
+    &.mini {
+      width: 140px;
+    }
+
+    &.sm {
+      width: 180px;
+    }
+
+    &.per {
+      width: 195px;
+    }
+
+    &.wid {
+      width: 240px;
+    }
+
+    &.widh {
+      width: 300px;
+    }
+
+    &.cus {
+      width: 360px;
+    }
+
+    &.large {
+      width: 420px;
+    }
+
+    &.superLarge {
+      width: 500px;
+    }
+
+    &.w100 {
+      width: 100%;
+    }
+
+    &-number {
+      &.mini {
+        width: 140px;
+      }
+
+      &.sm {
+        width: 180px;
+      }
+
+      &.w220 {
+        width: 220px;
+      }
+
+      &.wid {
+        width: 224px;
+      }
+
+      &.cus {
+        width: 360px;
+      }
+
+      &.large {
+        width: 420px;
+      }
+
+      &.superLarge {
+        width: 500px;
+      }
+
+      &.w100 {
+        width: 100%;
+      }
+    }
+  }
+
+  &-select {
+    &.mini {
+      width: 140px;
+    }
+
+    &.sm {
+      width: 180px;
+    }
+
+    &.wid {
+      width: 224px;
+    }
+
+    &.cus {
+      width: 360px;
+    }
+
+    &.large {
+      width: 420px;
+    }
+
+    &.superLarge {
+      width: 500px;
+    }
+
+    &.w100 {
+      width: 100%;
+    }
+  }
+
+  &-textarea {
+    &.mini {
+      width: 140px;
+    }
+
+    &.sm {
+      width: 180px;
+    }
+
+    &.wid {
+      width: 224px;
+    }
+
+    &.cus {
+      width: 360px;
+    }
+
+    &.large {
+      width: 420px;
+    }
+
+    &.superLarge {
+      width: 500px;
+    }
+
+    &.w100 {
+      width: 100%;
+    }
+  }
+}
