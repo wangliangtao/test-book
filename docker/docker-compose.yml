@@ -1,6 +1,0 @@
-version: "1.0"
-services:
-  web-test:
-    build: ../
-    ports:
-      - "9527:80"

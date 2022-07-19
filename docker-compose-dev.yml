@@ -1,8 +1,0 @@
-version: "3.1"
-services:
-  web-platform:
-    image: dev.ygggtec.com:9090/nexus/repository/docker/marketPlatform:dev
-    container_name: marketPlatform
-    restart: always
-    ports:
-      - "9527:9527"
