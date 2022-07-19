@@ -1,0 +1,111 @@
+pipeline {
+    agent any
+    parameters {
+        booleanParam (
+                description: 'Install',
+                name: 'Install',
+                defaultValue: true,
+        )
+
+        booleanParam (
+                description: 'Build',
+                name: 'Build',
+                defaultValue: true,
+        )
+
+        booleanParam (
+                description: 'Docker Push',
+                name: 'DockerPush',
+                defaultValue: true,
+        )
+
+        string(
+                description: 'APP',
+                name: 'APP',
+                defaultValue: 'marketplatform',
+        )
+    }
+    stages {
+        stage("拉取分支代码") {
+            steps {
+                script {
+
+                    println("${branchName}")
+
+                    checkout([$class                           : 'GitSCM', branches: [[name: "${branchName}"]],
+                              doGenerateSubmoduleConfigurations: false,
+                              extensions                       : [],
+                              submoduleCfg                     : [],
+                              userRemoteConfigs                : [[credentialsId: 'jenkins',
+                                                                   url          : "http://dev.ygggtec.com/gitlab/atao/atwj-marketing-platform.git"]]])
+                }
+            }
+        }
+        stage('输出项目的参数') {
+            steps {
+                script {
+                    //设置buildName
+                    wrap([$class: 'BuildUser']) {
+                        def deploylog = "${BUILD_USER} use pipeline  '${JOB_NAME}(${BUILD_NUMBER})' "
+                        println deploylog
+                        buildName "#${BUILD_NUMBER}-^${params.APP}-dev^-${BUILD_USER}"
+                        //输出最新一次提交信息
+                        HTTPD_LOCATION = sh(returnStdout: true, script: 'git show -s  |grep -vE "commit|Date" |grep -v "^$"')
+                        //修改Description"
+                        buildDescription "${HTTPD_LOCATION}"
+                    }
+                }
+            }
+        }
+        stage('Install') {
+            when {
+                expression { params.Install == true}
+            }
+            steps {
+                echo 'Building....'
+                sh ' npm install'
+            }
+        }
+        stage('Build') {
+            when {
+                expression { params.Build == true}
+            }
+            steps {
+                echo 'Building....'
+                sh 'npm run build:dev'
+            }
+        }
+        stage('Docker Push') {
+            when {
+                expression { params.DockerPush == true}
+            }
+            steps {
+                echo '生成镜像文件'
+                sh """
+sudo cp -R dist docker_dev/
+cd docker_dev
+sudo docker build -t ${params.APP}:dev .
+sudo docker tag ${params.APP}:dev  dev.ygggtec.com:9090/nexus/repository/docker/${params.APP}:dev
+sudo docker push dev.ygggtec.com:9090/nexus/repository/docker/${params.APP}:dev
+"""
+            }
+        }
+        stage('远程使用compose部署') {
+            when {
+                expression { params.DockerPush == true }
+            }
+            steps {
+                echo 'Deploy ....'
+                sh """
+echo '远程连接'
+sudo ssh -i /ws/.ssh/id_rsa  ws@10.10.85.179  <<'ENDSSH'
+docker pull dev.ygggtec.com:9090/nexus/repository/docker/${params.APP}:dev
+yes | docker-compose -f /ws/program/ygzh/marketPlatform/docker-compose-dev.yml up --build  --force-recreate  -d
+ENDSSH
+"""
+            }
+        }
+    }
+
+
+}
